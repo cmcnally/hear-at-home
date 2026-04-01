@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 32 32">
+  <rect width="32" height="32" rx="7" fill="#F27B6B"/>
+  <!-- House -->
+  <path d="M16 4.5 L27.5 14 L25 14 L25 26 C25 26.6, 24.6 27, 24 27 L8 27 C7.4 27, 7 26.6, 7 26 L7 14 L4.5 14 Z"
+        stroke="white" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" fill="none"/>
+  <!-- Ear -->
+  <path d="M13 12.5 C12 10, 14 8, 16.5 8 C19 8, 20.5 10, 20.5 12 C20.5 14, 19 15.5, 18 17 C17 18.5, 17 19.5, 17.5 20.5 C18 21.5, 17 22, 16 21 C15 20, 14 18, 13 15.5"
+        stroke="white" stroke-width="1.6" stroke-linecap="round" fill="none"/>
+  <!-- Inner ear -->
+  <path d="M16 12 C17 11.5, 18 12.5, 17.5 14 C17 15, 16 14.5, 16 13.5"
+        stroke="white" stroke-width="1.2" stroke-linecap="round" fill="none"/>
+</svg>

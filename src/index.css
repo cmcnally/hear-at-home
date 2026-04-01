@@ -1,0 +1,63 @@
+@import "tailwindcss";
+
+@theme {
+  --color-brand-dark: #1a1a2e;
+  --color-brand-navy: #16213e;
+  --color-brand-blue: #0f3460;
+  --color-brand-accent: #e94560;
+  --color-brand-gold: #f5c518;
+  --color-brand-teal: #00b4d8;
+  --color-brand-green: #06d6a0;
+  --color-brand-purple: #7b2cbf;
+  --color-alert-red: #ef4444;
+  --color-alert-yellow: #eab308;
+  --color-alert-blue: #3b82f6;
+  --color-alert-orange: #f97316;
+  --color-alert-green: #22c55e;
+  --color-alert-purple: #a855f7;
+  --color-alert-cyan: #06b6d4;
+  --color-alert-white: #ffffff;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+/* Mobile-friendly code blocks */
+pre {
+  -webkit-overflow-scrolling: touch;
+}
+
+code {
+  word-break: break-word;
+}
+
+/* Ensure inline code wraps on mobile */
+p code, li code {
+  word-break: break-all;
+}
+
+/* Print styles for alert card */
+@media print {
+  header, footer, nav, button { display: none !important; }
+  section { break-inside: avoid; }
+}
+
+/* Tap targets — ensure minimum 44px on mobile */
+@media (max-width: 640px) {
+  a, button {
+    min-height: 44px;
+  }
+
+  /* Tighter padding on mobile for guide content */
+  .prose {
+    font-size: 0.9375rem;
+  }
+}
