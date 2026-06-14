@@ -117,10 +117,13 @@ export default function Advanced() {
       - service: notify.mobile_app_YOUR_PHONE
         data:
           title: "SMOKE ALARM DETECTED"
-          message: "Smoke alarm detected. Get out
-            and call 911."
+          message: "Smoke alarm detected. Get out and call 911."
           data:
-            interruption-level: critical`}</CodeBlock>
+            push:
+              sound:
+                name: default
+                critical: 1
+                volume: 1.0`}</CodeBlock>
 
         <h3 className="text-lg font-semibold text-gray-900 mb-3">Severe Weather — Bed Shaker + Purple Flash + Notification</h3>
         <CodeBlock title="automations/severe_weather_alert.yaml">{`automation:
@@ -152,10 +155,13 @@ export default function Advanced() {
       - service: notify.mobile_app_YOUR_PHONE
         data:
           title: "SEVERE WEATHER ALERT"
-          message: "Tornado warning for your area.
-            Take shelter now."
+          message: "Tornado warning for your area. Take shelter now."
           data:
-            interruption-level: critical`}</CodeBlock>
+            push:
+              sound:
+                name: default
+                critical: 1
+                volume: 1.0`}</CodeBlock>
 
         <h3 className="text-lg font-semibold text-gray-900 mb-3">Dog Barking — Yellow Flash + Notification (No Bed Shaker)</h3>
         <CodeBlock title="automations/dog_bark_alert.yaml">{`automation:
@@ -271,14 +277,14 @@ export default function Advanced() {
           </div>
         </div>
 
-        <h3 className="text-lg font-semibold text-gray-900 mb-3">Go further: Claude inside Home Assistant</h3>
-        <p className="text-gray-600 mb-4">Instead of copying YAML back and forth, you can put Claude directly inside Home Assistant and talk to it from within your setup:</p>
+        <h3 className="text-lg font-semibold text-gray-900 mb-3">Vibe Coding with GitHub Copilot</h3>
+        <p className="text-gray-600 mb-4">Instead of manually copying YAML back and forth, you can use "vibe coding" with AI tools directly connected to your configuration files. This means you just describe the <em>vibe</em> or <em>goal</em>, and the AI handles the syntax.</p>
         <ul className="list-disc pl-5 space-y-2 text-gray-600 mb-4">
-          <li><a href="https://www.home-assistant.io/integrations/anthropic/" target="_blank" rel="noopener noreferrer" className="text-brand-purple font-medium">Official Anthropic integration</a> — adds Claude as a conversation agent in Home Assistant with access to the Assist API, so you can talk to Claude right from your HA dashboard</li>
-          <li><a href="https://github.com/danbuhler/claude-code-ha" target="_blank" rel="noopener noreferrer" className="text-brand-purple font-medium">Claude Code for Home Assistant</a> — a toolkit that lets Claude Code manage your HA config directly — entity lookups, service calls, dashboard syncing, and automation writing</li>
-          <li><a href="https://community.home-assistant.io/t/using-claude-code-to-manage-your-home-assistant-config-is-pretty-amazing/971269" target="_blank" rel="noopener noreferrer" className="text-brand-purple font-medium">Managing HA config with Claude Code</a> — a community walkthrough showing how Claude can discover devices, write automations, and build dashboards</li>
+          <li><strong>GitHub Copilot App</strong> — Open your Home Assistant configuration directory in the Copilot App, and simply tell it what you want to achieve. It has full context of your existing YAML files and can safely write and modify automations across your whole setup without you typing a single line of code.</li>
+          <li><a href="https://www.home-assistant.io/integrations/anthropic/" target="_blank" rel="noopener noreferrer" className="text-brand-purple font-medium">Official Anthropic integration</a> — adds Claude as a conversation agent in Home Assistant, so you can talk to your home right from your dashboard.</li>
+          <li><a href="https://github.com/danbuhler/claude-code-ha" target="_blank" rel="noopener noreferrer" className="text-brand-purple font-medium">Claude Code for Home Assistant</a> — a toolkit that lets AI manage your HA config directly through commands.</li>
         </ul>
-        <p className="text-gray-600">This is the vision for Hear at Home: download the starter package, point Claude at your config, and describe what you want in your own words. Your home, your rules, your language.</p>
+        <p className="text-gray-600">This is the vision for Hear at Home: download the starter package, open it in an AI assistant like GitHub Copilot, and describe what you want in your own words. Your home, your rules, your language.</p>
       </Section>
 
       <Section title="Go Beyond: Ideas to Build On">

@@ -211,10 +211,15 @@ export default function Intermediate() {
         <Link to="/power-outage" className="text-brand-teal font-medium">Read the full Power Outage Guide →</Link>
       </Section>
 
-      <Section title="Ready to Level Up?">
-        <p className="text-gray-600 mb-4">By now you understand how sounds connect to actions, how routines work, and how devices talk to each other. More importantly, you've been using Claude to troubleshoot and plan — and that's the real skill that unlocks the Advanced level.</p>
-        <p className="text-gray-600 mb-4">Here's what makes the Advanced level different from anything you've done before: you tell Claude what you want in plain English — "flash my bedroom light red when the smoke alarm goes off, turn on the bed shaker, and send a notification to my Apple Watch" — and Claude writes the entire automation. No code. No documentation. Just a conversation. That's what using AI to build an accessible home looks like.</p>
-        <p className="text-gray-600"><Link to="/advanced" className="text-brand-purple font-medium">Start the Advanced Guide →</Link></p>
+      <Section title="What's Next: Advanced Level">
+        <div className="bg-brand-purple/5 border border-brand-purple/20 rounded-xl p-6">
+          <h3 className="text-lg font-semibold text-brand-purple mb-2">Ready for full control?</h3>
+          <p className="text-gray-700 mb-4">By now you understand how sounds connect to actions and devices talk to each other. In the Advanced level, we replace Alexa with Home Assistant for complete, local control.</p>
+          <p className="text-gray-700 mb-4">Here's the best part: you won't need to write complex code. You'll tell AI tools like Claude or GitHub Copilot what you want in plain English—"flash my bedroom light red for smoke, trigger the bed shaker, and alert my watch"—and it builds the exact configuration for you.</p>
+          <Link to="/advanced" className="inline-flex items-center gap-2 px-6 py-3 rounded-lg bg-brand-purple text-white font-semibold no-underline hover:opacity-90 transition">
+            Start Advanced Guide →
+          </Link>
+        </div>
       </Section>
     </GuideLayout>
   )

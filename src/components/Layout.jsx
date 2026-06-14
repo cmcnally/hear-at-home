@@ -47,6 +47,16 @@ export default function Layout() {
                   {label}
                 </Link>
               ))}
+
+              {/* GitHub Link & CTA */}
+              <div className="flex items-center gap-3 ml-2 border-l border-gray-200 pl-4">
+                <a href="https://github.com/cmcnally/hear-at-home" target="_blank" rel="noopener noreferrer" className="text-gray-500 hover:text-gray-900 transition" aria-label="GitHub Repository">
+                  <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"><path d="M15 22v-4a4.8 4.8 0 0 0-1-3.2c3-.3 6-1.5 6-6.5a4.6 4.6 0 0 0-1.3-3.2 4.3 4.3 0 0 0-.1-3.2s-1.1-.3-3.5 1.3a12.3 12.3 0 0 0-6.2 0C6.5 2.8 5.4 3.1 5.4 3.1a4.3 4.3 0 0 0-.1 3.2A4.6 4.6 0 0 0 4 9.5c0 5 3 6.2 6 6.5a4.8 4.8 0 0 0-1 3.2v4"></path></svg>
+                </a>
+                <a href="/#find-your-level" className="px-4 py-2 rounded-lg bg-brand-blue text-white text-sm font-semibold hover:bg-brand-blue/90 transition no-underline">
+                  Get Started
+                </a>
+              </div>
             </nav>
 
             {/* Mobile menu button */}

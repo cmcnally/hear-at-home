@@ -203,6 +203,16 @@ export default function QuickStart() {
         <p className="text-gray-700 font-medium mt-4">That's a real difference. A smoke alarm at 3 AM is no longer something you might sleep through.</p>
         <p className="text-gray-600 mt-4">And this is just the beginning. When you're ready, the <Link to="/intermediate" className="text-brand-teal font-medium">Intermediate guide</Link> adds smart lights that change color for different alerts, and the <Link to="/advanced" className="text-brand-purple font-medium">Advanced guide</Link> gives you full control — bed shakers, custom flash patterns, door sensors, and AI that builds it all for you in plain English.</p>
       </Section>
+
+      <Section title="What's Next?">
+        <div className="bg-brand-teal/5 border border-brand-teal/20 rounded-xl p-6">
+          <h3 className="text-lg font-semibold text-brand-teal mb-2">Ready to make your home react?</h3>
+          <p className="text-gray-700 mb-4">You've got your phone vibrating for alerts. The next step is making your environment visually react. In the Intermediate level, you'll learn how to make smart lights flash specific colors (like red for smoke or yellow for dogs) using Amazon Echo dots as listeners.</p>
+          <Link to="/intermediate" className="inline-flex items-center gap-2 px-6 py-3 rounded-lg bg-brand-teal text-white font-semibold no-underline hover:opacity-90 transition">
+            Start Intermediate Guide →
+          </Link>
+        </div>
+      </Section>
     </GuideLayout>
   )
 }

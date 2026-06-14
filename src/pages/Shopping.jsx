@@ -57,7 +57,7 @@ const advancedWireless = [
 
 const advancedAlert = [
   { name: 'Smart plug (Zigbee) — SONOFF S31 Lite or ThirdReality', purpose: 'Controls bed shaker on/off via HA', price: '~$10–$15' },
-  { name: 'Bed shaker — Sonic Alert Super Shaker 12V', purpose: 'Vibrates under pillow for critical alerts', price: '~$15–$40' },
+  { name: 'Bed shaker — Sonic Alert SS120VW (120V Wall Plug)', purpose: 'Vibrates under pillow for critical alerts', price: '~$30–$40' },
   { name: 'Smart color bulbs (Zigbee)', purpose: 'Color-coded visual alerts in every room', price: '~$15–$50 ea' },
 ]
 
