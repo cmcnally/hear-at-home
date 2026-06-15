@@ -32,6 +32,7 @@ const intermediateItems = [
 ]
 
 const intermediateOptional = [
+  { name: 'Smart light switch (like Leviton Decora Smart)', purpose: 'Control a hard-wired ceiling light or whole circuit without swapping bulbs (on/off only — no color)', price: '~$25–$50 ea' },
   { name: 'Sonic Alert Sonic Bomb bed shaker', purpose: 'Strong vibration to wake you for important alerts', price: '~$30–$40' },
   { name: 'Fire Tablet (for Alexa dashboard)', purpose: 'Wall-mount visual alert display', price: '~$50–$80' },
 ]

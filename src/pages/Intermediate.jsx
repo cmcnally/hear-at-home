@@ -42,6 +42,9 @@ export default function Intermediate() {
       <Section title="Connect Your Devices to Alexa">
         <Step number="1" title="Connect your smart lights">
           <p>Open the <strong>Alexa app</strong> → <strong>Devices</strong> → <strong>+</strong> → <strong>Add Device</strong> → <strong>Light</strong> → select your brand → <strong>Discover Devices</strong>. You need color-capable smart lights with a bridge or hub. Philips Hue, LIFX, and other Alexa-compatible color lights all work — pick whichever fits your budget.</p>
+          <Callout type="tip" title="Prefer to control a hard-wired ceiling light? Use a smart switch">
+            If you'd rather not swap bulbs — or you want to flash a hard-wired overhead light or a whole circuit — a smart light switch like the <strong>Leviton Decora Smart</strong> line replaces your existing wall switch and works with Alexa (and Home Assistant later). One thing to know for alerts: a switch can only turn lights <em>on and off</em>, so it can flash a light but can't do color-coded alerts (red for smoke, blue for the doorbell). For color-coded alerts you still want color smart bulbs — many people use both: color bulbs in lamps, smart switches for the ceiling lights.
+          </Callout>
         </Step>
         <Step number="2" title="Connect your smart plug">
           <p>Plug in your Amazon Smart Plug → <strong>Alexa app</strong> → <strong>Devices</strong> → <strong>+</strong> → <strong>Add Device</strong> → <strong>Plug</strong>. Name it something clear like <strong>"Bed Shaker"</strong>.</p>
