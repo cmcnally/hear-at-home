@@ -172,12 +172,6 @@ export default function Shopping() {
               <li><strong>Buy one room at a time</strong> — you don't need to outfit your whole house on day one.</li>
             </ul>
           </div>
-
-          {/* Affiliate disclosure */}
-          <div className="mt-10 p-5 bg-gray-50 rounded-xl text-sm text-gray-500">
-            <p className="font-medium text-gray-700 mb-1">Affiliate Disclosure</p>
-            <p>Some links on this page are Amazon affiliate links. When you buy through these links, a small percentage goes to support the Hear at Home project at no extra cost to you. We only recommend products we've personally tested or that are widely recommended by the D/deaf and Hard of Hearing smart home community. We are never paid to recommend a product.</p>
-          </div>
         </div>
       </section>
     </div>
