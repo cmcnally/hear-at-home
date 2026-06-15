@@ -278,13 +278,13 @@ export default function Advanced() {
         </div>
 
         <h3 className="text-lg font-semibold text-gray-900 mb-3">Vibe Coding with GitHub Copilot</h3>
-        <p className="text-gray-600 mb-4">Instead of manually copying YAML back and forth, you can use "vibe coding" with AI tools directly connected to your configuration files. This means you just describe the <em>vibe</em> or <em>goal</em>, and the AI handles the syntax.</p>
+        <p className="text-gray-600 mb-4">Instead of manually copying YAML back and forth, you can use "vibe coding" with an AI coding tool (like GitHub Copilot App, Claude Code, or Codex) connected directly to your configuration files. This means you just describe the <em>vibe</em> or <em>goal</em>, and the AI handles the syntax.</p>
         <ul className="list-disc pl-5 space-y-2 text-gray-600 mb-4">
           <li><strong>GitHub Copilot App</strong> — Open your Home Assistant configuration directory in the Copilot App, and simply tell it what you want to achieve. It has full context of your existing YAML files and can safely write and modify automations across your whole setup without you typing a single line of code.</li>
           <li><a href="https://www.home-assistant.io/integrations/anthropic/" target="_blank" rel="noopener noreferrer" className="text-brand-purple font-medium">Official Anthropic integration</a> — adds Claude as a conversation agent in Home Assistant, so you can talk to your home right from your dashboard.</li>
           <li><a href="https://github.com/danbuhler/claude-code-ha" target="_blank" rel="noopener noreferrer" className="text-brand-purple font-medium">Claude Code for Home Assistant</a> — a toolkit that lets AI manage your HA config directly through commands.</li>
         </ul>
-        <p className="text-gray-600">This is the vision for Hear at Home: download the starter package, open it in an AI assistant like GitHub Copilot, and describe what you want in your own words. Your home, your rules, your language.</p>
+        <p className="text-gray-600">This is the vision for Hear at Home: download the starter package, open it in an AI coding tool (like GitHub Copilot App, Claude Code, or Codex), and describe what you want in your own words. Your home, your rules, your language.</p>
       </Section>
 
       <Section title="Go Beyond: Ideas to Build On">
