@@ -143,8 +143,8 @@ export default function QuickStart() {
         </p>
       </Section>
 
-      <Section title="Your AI Assistant: Meet Claude">
-        <p className="text-gray-600 mb-4">This is the beginning of a journey — and you don't have to figure it out alone. <a href="https://claude.ai" target="_blank" rel="noopener noreferrer" className="text-green-700 font-medium">Claude AI</a> is a free AI assistant that can answer any question about your setup in plain English. Start using it now and you'll be ready for the Intermediate and Advanced levels, where Claude actually builds automations for you.</p>
+      <Section title="Your Favorite AI Assistant">
+        <p className="text-gray-600 mb-4">This is the beginning of a journey — and you don't have to figure it out alone. Your favorite AI assistant (a free chatbot you can talk to) can answer any question about your setup in plain English. Start using one now and you'll be ready for the Intermediate and Advanced levels, where it actually builds automations for you.</p>
         <div className="space-y-2 mb-4">
           <div className="bg-green-50 rounded-lg p-3 border border-green-100">
             <p className="text-sm text-gray-500 mb-1">You:</p>
@@ -159,7 +159,7 @@ export default function QuickStart() {
             <p className="text-sm text-gray-800 italic">"I want to set up my Apple Watch to vibrate when my phone detects sounds. Walk me through it."</p>
           </div>
         </div>
-        <p className="text-gray-500 text-sm">Notice how natural these questions are — just describe your situation and ask for help. This is the exact same skill that powers the entire Hear at Home project. By the time you reach Advanced, you'll be telling Claude to write your entire smart home configuration.</p>
+        <p className="text-gray-500 text-sm">Notice how natural these questions are — just describe your situation and ask for help. This is the exact same skill that powers the entire Hear at Home project. By the time you reach Advanced, you'll be telling your favorite AI assistant to write your entire smart home configuration.</p>
       </Section>
 
       <Section title="Print Your Alert Card">
@@ -188,6 +188,9 @@ export default function QuickStart() {
           When the power goes out, smart lights, Echo Dots, and smart plugs all lose power. But your phone and smartwatch keep running on battery. Sound Recognition works with no WiFi and no internet — just your phone's microphone.
         </Callout>
         <p className="text-gray-600 mb-4">This is why a smartwatch is one of the most important things you can own for accessibility. It's the alert device that works when everything else is down.</p>
+        <Callout type="tip" title="Keep a power bank charged">
+          Your phone is the safety net — so keeping it powered through a long outage is what matters most. A charged power bank (portable battery) keeps it listening for hours. Note that one thing this Quick Start setup can't survive is your <strong>WiFi router</strong> losing power: if it goes down, anything that depends on the internet stops. When you're ready to keep your router and smart home running through outages, that's what a UPS (battery backup) is for — covered in the <Link to="/power-outage" className="text-brand-green font-medium">Power Outage Guide</Link>.
+        </Callout>
         <Link to="/power-outage" className="text-brand-green font-medium">Read the full Power Outage Guide →</Link>
       </Section>
 

@@ -25,7 +25,7 @@ export default function About() {
           <div className="mb-12">
             <h2 className="text-2xl font-bold text-gray-900 mb-4 pb-2 border-b border-gray-200">Why This Exists</h2>
             <p className="text-gray-600 mb-4">Your home is full of sounds: smoke alarms, doorbells, glass breaking, a dog barking at the door, water left running. If you can hear them, you react without thinking. If you can't — because you were born deaf, because your hearing has changed, or because you take your hearing aids out at night — those sounds just happen without you.</p>
-            <p className="text-gray-600 mb-4">AI changes that. For the first time, you can describe what you want your home to do in plain English — "flash my bedroom light red when the smoke alarm goes off and shake the bed" — and an AI assistant like Claude will build the automation for you. No code. No documentation. Just a conversation.</p>
+            <p className="text-gray-600 mb-4">AI changes that. For the first time, you can describe what you want your home to do in plain English — "flash my bedroom light red when the smoke alarm goes off and shake the bed" — and your favorite AI assistant will build the automation for you. No code. No documentation. Just a conversation.</p>
             <p className="text-gray-600 mb-4">Hear at Home is built on that idea. It's a free, open-source guide to setting up visual and tactile alerts using AI assistants, mainstream smart home technology, and your own words. Flashing lights instead of sirens. Bed shakers instead of alarms. A notification on your phone or Apple Watch that tells you exactly what triggered it. And an AI companion that helps you build, troubleshoot, and customize all of it.</p>
             <p className="text-gray-600 mb-4">Specialized accessibility alerting systems exist and they work well for many people. Hear at Home takes a different approach: use the same technology everyone else is already using, pair it with AI, and make it do exactly what you need.</p>
             <p className="text-gray-600 mb-4">The point is independence. Knowing what's happening in your own home without relying on someone else to tell you. A smoke alarm at 3 AM, someone at the door, a tornado warning — you'll know.</p>
@@ -40,25 +40,25 @@ export default function About() {
                 <span className="flex items-center justify-center w-10 h-10 rounded-full bg-brand-green text-white text-sm font-bold shrink-0">1</span>
                 <div>
                   <p className="font-bold text-gray-900">Quick Start — Awareness</p>
-                  <p className="text-sm text-gray-600">Your phone listens for sounds and alerts you. Free, takes 15 minutes, uses what you already have. Ask Claude any questions along the way.</p>
+                  <p className="text-sm text-gray-600">Your phone listens for sounds and alerts you. Free, takes 15 minutes, uses what you already have. Ask your AI assistant any questions along the way.</p>
                 </div>
               </div>
               <div className="flex items-start gap-4 p-4 rounded-xl bg-teal-50 border border-teal-200">
                 <span className="flex items-center justify-center w-10 h-10 rounded-full bg-brand-teal text-white text-sm font-bold shrink-0">2</span>
                 <div>
                   <p className="font-bold text-gray-900">Intermediate — React</p>
-                  <p className="text-sm text-gray-600">Echo Dots listen in multiple rooms and trigger smart lights and smart plugs through Alexa Routines. Claude helps troubleshoot and plan your layout.</p>
+                  <p className="text-sm text-gray-600">Echo Dots listen in multiple rooms and trigger smart lights and smart plugs through Alexa Routines. Your AI assistant helps troubleshoot and plan your layout.</p>
                 </div>
               </div>
               <div className="flex items-start gap-4 p-4 rounded-xl bg-purple-50 border border-purple-200">
                 <span className="flex items-center justify-center w-10 h-10 rounded-full bg-brand-purple text-white text-sm font-bold shrink-0">3</span>
                 <div>
                   <p className="font-bold text-gray-900">Advanced — Control</p>
-                  <p className="text-sm text-gray-600">Home Assistant with custom automations, door sensors, weather alerts, and bed shakers. Tell Claude what you want and it writes the entire configuration for you.</p>
+                  <p className="text-sm text-gray-600">Home Assistant with custom automations, door sensors, weather alerts, and bed shakers. Tell your AI assistant what you want and it writes the entire configuration for you.</p>
                 </div>
               </div>
             </div>
-            <p className="text-gray-600">Each level builds on the one before it, and AI is the thread that connects them all. At Quick Start, you ask Claude questions. At Intermediate, Claude helps you troubleshoot and plan. At Advanced, Claude builds your entire smart home configuration. The goal is full control — and AI is how you get there.</p>
+            <p className="text-gray-600">Each level builds on the one before it, and AI is the thread that connects them all. At Quick Start, you ask your AI assistant questions. At Intermediate, it helps you troubleshoot and plan. At Advanced, it builds your entire smart home configuration. The goal is full control — and AI is how you get there.</p>
           </div>
 
           <div className="mb-12">

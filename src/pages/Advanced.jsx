@@ -29,7 +29,7 @@ export default function Advanced() {
       prevLevel={{ link: '/intermediate', label: 'Intermediate' }}
     >
       <Callout type="tip" title="You don't need to be technical">
-        Everything in this guide can be downloaded as a ready-to-go starter package from the <Link to="/download" className="text-purple-700 font-medium">Hear at Home GitHub repo</Link>. And if you want to customize it, AI assistants like Claude can write and modify automations for you — just describe what you want in your own words.
+        Everything in this guide can be downloaded as a ready-to-go starter package from the <Link to="/download" className="text-purple-700 font-medium">Hear at Home GitHub repo</Link>. And if you want to customize it, your favorite AI assistant can write and modify automations for you — just describe what you want in your own words.
       </Callout>
 
       <Section title="What You'll Need">
@@ -240,20 +240,20 @@ export default function Advanced() {
       </Section>
 
       <Section title="Customizing with AI">
-        <p className="text-gray-600 mb-4">This is where it all comes together. You don't need to learn YAML. You don't need to read documentation. <a href="https://claude.ai" target="_blank" rel="noopener noreferrer" className="text-brand-purple font-medium">Claude AI</a> can read your configuration, understand your devices, and write or modify automations for you — all in plain English.</p>
+        <p className="text-gray-600 mb-4">This is where it all comes together. You don't need to learn YAML. You don't need to read documentation. Your favorite AI assistant can read your configuration, understand your devices, and write or modify automations for you — all in plain English.</p>
 
         <h3 className="text-lg font-semibold text-gray-900 mb-3">Customize the starter package</h3>
-        <p className="text-gray-600 mb-4">Download the Hear at Home automations, paste one into Claude, and tell it about your setup:</p>
+        <p className="text-gray-600 mb-4">Download the Hear at Home automations, paste one into your favorite AI assistant, and tell it about your setup:</p>
         <div className="space-y-2 mb-6">
           <div className="bg-purple-50 rounded-lg p-3 border border-purple-100">
             <p className="text-sm text-gray-500 mb-1">You:</p>
             <p className="text-sm text-gray-800 italic">"Here's a Hear at Home automation for smoke/CO alerts. My bedroom light is called light.master_bedroom, my bed shaker plug is switch.smart_plug_3, and my phone is mobile_app_catharines_iphone. Update the entity names for me."</p>
           </div>
         </div>
-        <p className="text-gray-600 mb-6">Claude returns the complete automation with your device names — ready to paste into Home Assistant.</p>
+        <p className="text-gray-600 mb-6">It returns the complete automation with your device names — ready to paste into Home Assistant.</p>
 
         <h3 className="text-lg font-semibold text-gray-900 mb-3">Build new automations from scratch</h3>
-        <p className="text-gray-600 mb-4">Describe what you want in your own words. Claude writes the YAML:</p>
+        <p className="text-gray-600 mb-4">Describe what you want in your own words. Your AI assistant writes the YAML:</p>
         <div className="space-y-2 mb-6">
           <div className="bg-purple-50 rounded-lg p-3 border border-purple-100">
             <p className="text-sm text-gray-500 mb-1">You:</p>

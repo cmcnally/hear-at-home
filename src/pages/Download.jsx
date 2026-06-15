@@ -129,16 +129,16 @@ export default function Download() {
           </ul>
 
           <h2 className="text-2xl font-bold text-gray-900 mb-4 pb-2 border-b border-gray-200">Customizing with AI</h2>
-          <p className="text-gray-600 mb-4">You don't need to learn YAML to make these automations yours. <a href="https://claude.ai" target="_blank" rel="noopener noreferrer" className="text-purple-700 font-medium">Claude AI</a> is remarkably good at reading, writing, and rewriting Home Assistant automations. Paste any automation from this repo into Claude, tell it your device names, and it will return a version customized for your setup.</p>
-          <p className="text-gray-600 mb-4">But it goes well beyond swapping entity names. Claude can write entirely new automations from a plain-English description, add error handling, simplify complex logic, and help you debug when something isn't working. Describe what you want in your own words, and Claude builds it.</p>
+          <p className="text-gray-600 mb-4">You don't need to learn YAML to make these automations yours. Your favorite AI assistant is remarkably good at reading, writing, and rewriting Home Assistant automations. Paste any automation from this repo into your AI assistant, tell it your device names, and it will return a version customized for your setup.</p>
+          <p className="text-gray-600 mb-4">But it goes well beyond swapping entity names. It can write entirely new automations from a plain-English description, add error handling, simplify complex logic, and help you debug when something isn't working. Describe what you want in your own words, and your AI assistant builds it.</p>
 
-          <p className="text-gray-600 mb-4">Even better, the community has built integrations that put Claude directly inside Home Assistant — so you can create and manage automations without leaving HA:</p>
+          <p className="text-gray-600 mb-4">Even better, the community has built integrations that put AI directly inside Home Assistant — so you can create and manage automations without leaving HA:</p>
           <ul className="list-disc pl-5 space-y-2 text-gray-600 mb-6">
             <li><a href="https://www.home-assistant.io/integrations/anthropic/" target="_blank" rel="noopener noreferrer" className="text-purple-700 font-medium">Official Anthropic integration</a> — adds Claude as a conversation agent inside Home Assistant, so you can talk to it from your dashboard</li>
             <li><a href="https://github.com/danbuhler/claude-code-ha" target="_blank" rel="noopener noreferrer" className="text-purple-700 font-medium">Claude Code for Home Assistant</a> — a toolkit that lets Claude Code manage your HA config directly — entity lookups, service calls, dashboard syncing, and automation writing</li>
             <li><a href="https://community.home-assistant.io/t/using-claude-code-to-manage-your-home-assistant-config-is-pretty-amazing/971269" target="_blank" rel="noopener noreferrer" className="text-purple-700 font-medium">Managing HA config with Claude Code</a> — community walkthrough showing the full workflow</li>
           </ul>
-          <p className="text-gray-600 mb-6">Imagine telling Claude: "Add a glass breaking alert that flashes my office light orange and sends a notification to my iPhone." And it just builds the automation for you, right inside Home Assistant. That's where this is heading.</p>
+          <p className="text-gray-600 mb-6">Imagine telling your AI assistant: "Add a glass breaking alert that flashes my office light orange and sends a notification to my iPhone." And it just builds the automation for you, right inside Home Assistant. That's where this is heading.</p>
 
           <Callout type="tip" title="Built something cool?">
             The Hear at Home repo is open source. If you create a useful automation, <a href="https://github.com/hearathomeproject/hear-at-home" target="_blank" rel="noopener noreferrer" className="text-purple-700 font-medium">submit a pull request</a> so the community can benefit.

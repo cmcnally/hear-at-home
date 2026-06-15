@@ -11,7 +11,7 @@ export default function Intermediate() {
       colorBg="bg-gradient-to-r from-brand-teal to-cyan-600"
       icon={Speaker}
       title="Your home starts listening"
-      tagline="Place Echo Dots in key rooms, connect them to smart lights and smart plugs through Alexa Routines, and make your whole home respond to sounds. Use Claude to troubleshoot, plan your setup, and get ready for Advanced."
+      tagline="Place Echo Dots in key rooms, connect them to smart lights and smart plugs through Alexa Routines, and make your whole home respond to sounds. Use your favorite AI assistant to troubleshoot, plan your setup, and get ready for Advanced."
       time="30–60 minutes"
       cost="$100–$250"
       what="Echo Dot + smart lights"
@@ -19,7 +19,7 @@ export default function Intermediate() {
       nextLevel={{ link: '/advanced', label: 'Next: Advanced Guide' }}
     >
       <Section title="What You'll Build">
-        <p className="text-gray-600 mb-4">At the Quick Start level, your phone was doing all the listening by itself. Now you're going to place Echo Dots around your home to listen in multiple rooms, and connect them to smart color lights and smart plugs so that when a sound is detected, things actually happen. And this is the level where Claude becomes your active partner — troubleshooting problems, planning what goes where, and preparing you for the Advanced level where AI does the building for you.</p>
+        <p className="text-gray-600 mb-4">At the Quick Start level, your phone was doing all the listening by itself. Now you're going to place Echo Dots around your home to listen in multiple rooms, and connect them to smart color lights and smart plugs so that when a sound is detected, things actually happen. And this is the level where your favorite AI assistant becomes your active partner — troubleshooting problems, planning what goes where, and preparing you for the Advanced level where AI does the building for you.</p>
         <ul className="list-disc pl-5 space-y-2 text-gray-600">
           <li><strong>Echo Dots listening</strong> in key rooms for dog barking, smoke alarms, baby crying, and water running</li>
           <li><strong>Alexa Routines</strong> that connect sounds to actions — lights change color, smart plugs turn on, your phone gets a notification</li>
@@ -119,8 +119,8 @@ export default function Intermediate() {
         <p className="text-gray-600 text-sm">Emergency Assist is specifically trained to recognize the T3 smoke alarm pattern and T4 CO pattern — more reliable than generic sound detection. For most Hear at Home users, it's worth considering for the safety alerts alone.</p>
       </Section>
 
-      <Section title="Your AI Assistant: Claude">
-        <p className="text-gray-600 mb-4">This is where you really start using AI. <a href="https://claude.ai" target="_blank" rel="noopener noreferrer" className="text-brand-teal font-medium">Claude AI</a> becomes your smart home troubleshooter and planner — you describe your situation in plain English, and Claude tells you exactly what to do. Think of this level as your AI training ground: the more you use Claude now, the more naturally you'll work with it at the Advanced level, where Claude writes your entire smart home configuration for you.</p>
+      <Section title="Your Favorite AI Assistant">
+        <p className="text-gray-600 mb-4">This is where you really start using AI. Your favorite AI assistant becomes your smart home troubleshooter and planner — you describe your situation in plain English, and it tells you exactly what to do. Think of this level as your AI training ground: the more you use it now, the more naturally you'll work with it at the Advanced level, where it writes your entire smart home configuration for you.</p>
 
         <h3 className="text-lg font-semibold text-gray-900 mb-3">Troubleshooting</h3>
         <div className="space-y-2 mb-6">
@@ -157,7 +157,7 @@ export default function Intermediate() {
             <p className="text-sm text-gray-800 italic">"I want my lights to flash 3 times for the doorbell and 5 times for smoke, and I want a bed shaker for severe weather at night. Can Alexa do this or do I need Home Assistant?"</p>
           </div>
         </div>
-        <p className="text-gray-600 text-sm">Notice how natural these conversations are — you're just describing your situation and asking for help. That's the exact same skill you'll use at the Advanced level, except Claude will be writing automations for you instead of just explaining them.</p>
+        <p className="text-gray-600 text-sm">Notice how natural these conversations are — you're just describing your situation and asking for help. That's the exact same skill you'll use at the Advanced level, except your favorite AI assistant will be writing automations for you instead of just explaining them.</p>
       </Section>
 
       <Section title="Your Alert Color Reference">
@@ -215,7 +215,7 @@ export default function Intermediate() {
         <div className="bg-brand-purple/5 border border-brand-purple/20 rounded-xl p-6">
           <h3 className="text-lg font-semibold text-brand-purple mb-2">Ready for full control?</h3>
           <p className="text-gray-700 mb-4">By now you understand how sounds connect to actions and devices talk to each other. In the Advanced level, we replace Alexa with Home Assistant for complete, local control.</p>
-          <p className="text-gray-700 mb-4">Here's the best part: you won't need to write complex code. You'll tell AI tools like Claude or GitHub Copilot what you want in plain English—"flash my bedroom light red for smoke, trigger the bed shaker, and alert my watch"—and it builds the exact configuration for you.</p>
+          <p className="text-gray-700 mb-4">Here's the best part: you won't need to write complex code. You'll tell your favorite AI assistant what you want in plain English—"flash my bedroom light red for smoke, trigger the bed shaker, and alert my watch"—and it builds the exact configuration for you.</p>
           <Link to="/advanced" className="inline-flex items-center gap-2 px-6 py-3 rounded-lg bg-brand-purple text-white font-semibold no-underline hover:opacity-90 transition">
             Start Advanced Guide →
           </Link>
